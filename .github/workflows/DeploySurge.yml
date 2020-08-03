@@ -27,7 +27,7 @@ jobs:
       run:  actions/setup-node@v2-beta
          # Runs a single command using the runners shell
     - name: Install yarn
-      run:  borales/action-yarn@v2.0.0
+      run:  borales/actions-yarn@v2.0.0
      
      #build react app
     
