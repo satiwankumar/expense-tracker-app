@@ -29,7 +29,9 @@ jobs:
         node-version: 12
          # Runs a single command using the runners shell
     - name: Install yarn
-      run:  borales/actions-yarn@v2.0.0
+      uses:  borales/actions-yarn@v2.0.0
+      with:
+        cmd: install #will run `yarn install` command
      
      #build react app
     
